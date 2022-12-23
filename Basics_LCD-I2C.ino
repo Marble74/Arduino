@@ -1,5 +1,6 @@
 //Author: Marble
 //Created: 23 December 2022
+//Before using this code you must first know your LCD address then make sure you have installed the LiquidCrystal_I2C Library on your Arduino IDE
 
 //Library
 #include <LiquidCrystal_I2C.h>
