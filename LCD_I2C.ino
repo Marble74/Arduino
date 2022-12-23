@@ -18,6 +18,7 @@ void setup()
 {
      lcd.init(); //initialize
      lcd.backlight();
+     //print a message to the LCD
      lcd.setCursor(0,0); 
      lcd.print("Hello World");
      lcd.setCursor(0,1);
