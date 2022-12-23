@@ -8,6 +8,7 @@
 // A5 to SCL
 
 //Library
+#include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
 //Setup LCD I2C
@@ -18,9 +19,9 @@ void setup()
      lcd.init(); //initialize
      lcd.backlight();
      lcd.setCursor(0,0); 
-     lcd.print("Hello World"); // print text for LCD
+     lcd.print("Hello World");
      lcd.setCursor(0,1);
-     lcd.print("I'm Newbie"); // print text for LCD
+     lcd.print("I'm Newbie");
 }
 void loop()
 {
