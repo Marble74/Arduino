@@ -15,15 +15,15 @@ LiquidCrystal_I2C (0x27,16,2);
 
 void setup()
 {
-     lcd.init();
+     lcd.init(); //initialize
      lcd.backlight();
      lcd.setCursor(0,0); 
-     lcd.print("Hello World"); // 
+     lcd.print("Hello World"); // print text for LCD
      lcd.setCursor(0,1);
-     lcd.print("I'm Newbie");
+     lcd.print("I'm Newbie"); // print text for LCD
 }
 void loop()
 {
-   
+ 
 }
 
